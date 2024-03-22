@@ -1,0 +1,15 @@
+{
+  "deposit": {
+    "alternative": "Operation should have a positive value.\nValue given: {value}. Did you meant to use `withdraw`?",
+    "value 0": "Nothing to do with value 0.\nDid you meant to use `balance`?",
+    "result": "Success. Deposited {value}.",
+    "alternative_cond": " < 0"
+  },
+
+  "withdraw": {
+    "alternative": "Operation should have a negative value.\nValue given: {value}. Did you meant to use `deposit`?",
+    "value 0": "Nothing to do with value 0.\nDid you meant to use `balance`?",
+    "result": "Success. Withdrawn {value}.",
+    "alternative_cond": " > 0"
+  }
+}
